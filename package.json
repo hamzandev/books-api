@@ -1,0 +1,22 @@
+{
+  "name": "api-books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
